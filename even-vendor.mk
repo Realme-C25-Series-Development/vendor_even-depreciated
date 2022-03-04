@@ -36,3 +36,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService
+
+PRODUCT_COPY_FILES += \
+    vendor/realme/even/proprietary/lib/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/hw/android.hardware.health@2.0-impl-2.1.so \
+    vendor/realme/even/proprietary/lib/hw/power.mt6768.so:$(TARGET_COPY_OUT_PRODUCT)/lib/hw/power.mt6768.so \
