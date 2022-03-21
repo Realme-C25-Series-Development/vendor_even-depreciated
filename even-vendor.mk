@@ -57,5 +57,4 @@ PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so 
 
 PRODUCT_PACKAGES += \
-    EngineerMode \
-    ImsService
+    EngineerMode
